@@ -1,5 +1,5 @@
-import { BrowserModule } from '@angular/platform-browser'
-import { NgModule } from '@angular/core'
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
 
 import { AppRouting } from './assets/routes/app.routing';
 
@@ -13,19 +13,20 @@ import { PurchaseOrdersComponent } from './logged.in/routing/purchase.orders/pur
 @NgModule({
   declarations: [
     FourOFour,
-	  AppComponent,
-	  LoggedInComponent,
-	  RoutingComponent,
-	  ItemsComponent,
-	  PurchaseOrdersComponent
+    AppComponent,
+    LoggedInComponent,
+    RoutingComponent,
+    ItemsComponent,
+    PurchaseOrdersComponent
   ],
   imports: [
     AppRouting,
-	  BrowserModule,
+    BrowserModule
   ],
   providers: [],
   bootstrap: [
     AppComponent
   ]
 })
-export class AppModule { }
+export class AppModule {
+}
