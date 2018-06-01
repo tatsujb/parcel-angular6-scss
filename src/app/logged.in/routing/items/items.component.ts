@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
       items works!
     </p>
   `,
-  styleUrls: ['./items.component.scss']
+  styles: ['']
 })
 export class ItemsComponent implements OnInit {
 

@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
       purchaseorders works!
     </p>
   `,
-  styleUrls: ['./purchase.orders.component.scss']
+  styles: ['']
 })
 export class PurchaseOrdersComponent implements OnInit {
 

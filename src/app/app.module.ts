@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRouting } from './assets/routes/app.routing';
 
-import { FourOFour } from './four.o.four/four.o.four.component';
+import { FourOFour } from './four.o.four/four-o-four.component';
 import { AppComponent } from './app.component';
 import { LoggedInComponent } from './logged.in/logged.in.component';
 import { RoutingComponent } from './logged.in/routing/routing.component';

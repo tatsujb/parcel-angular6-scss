@@ -10,7 +10,7 @@ import { Component, OnInit } from '@angular/core';
     </p>
     <app-routing></app-routing>
   `,
-  styleUrls: ['./logged.in.component.scss']
+  styles: ['']
 })
 export class LoggedInComponent implements OnInit {
 

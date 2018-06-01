@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
     </p>
     <router-outlet></router-outlet>
   `,
-  styleUrls: ['./routing.component.scss']
+  styles: ['']
 })
 export class RoutingComponent implements OnInit {
 

@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FourOFour } from './four.o.four.component';
+import { FourOFour } from './four-o-four.component';
 
 describe('FourOFour', () => {
   let component: FourOFour;

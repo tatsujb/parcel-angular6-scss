@@ -5,6 +5,6 @@ import { Component } from '@angular/core';
   template: `
     <app-loggedin></app-loggedin>
   `,
-  styleUrls: ['./app.component.scss']
+  styles: ['']
 })
 export class AppComponent {}
