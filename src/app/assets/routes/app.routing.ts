@@ -1,15 +1,16 @@
-import { RouterModule } from '@angular/router';
-import { ItemsComponent } from '../../logged.in/routing/items/items.component';
-import { PurchaseOrdersComponent } from '../../logged.in/routing/purchase.orders/purchase.orders.component';
-import { FourOFour } from '../../four.o.four/four-o-four.component';
+import { RouterModule, Routes } from '@angular/router';
+import { HomeComponent } from '../../home/home.component';
+import { DashboardComponent } from '../../dashboard/dashboard.component';
+import { NgModule } from '@angular/core';
 
-const routes = [
-  { path: '', redirectTo: 'purchaseorders', pathMatch: 'full' },
-  { path: 'items', component: ItemsComponent, data: { state: '1'} },
-  { path: 'purchaseorders', component: PurchaseOrdersComponent, data: { state: '2'} },
-  { path: '**', component: FourOFour }
+
+const routes: Routes = [
+  { path: '', component: HomeComponent },
+  { path: 'dashboard', component: DashboardComponent }
 ];
 
-export const AppRouting = RouterModule.forRoot(routes, {
-  useHash: true
-});
+@NgModule({
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
+})
+export class AppRouting {}

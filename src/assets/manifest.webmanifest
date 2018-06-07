@@ -1,7 +1,7 @@
 {
-  "short_name": "angular-parcel",
+  "short_name": "angular-p",
   "name": "angular-parcel",
-  "description": "angular-parcel",
+  "description": "Angular parcel boilerplate",
   "start_url": "./",
   "display": "standalone",
   "theme_color": "#5755d9",
